@@ -4,7 +4,7 @@ function header({ heroSection, setHeroSection }) {
   return (
     <header>
       <div>
-        <h1>GrizzHacks 24</h1>
+        <h1>GrizzCS</h1>
       </div>
       <div>
         <nav>

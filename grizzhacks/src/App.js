@@ -3,6 +3,7 @@ import { useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Body from "./Body";
+import TreeInfo from "./TreeInfo";
 
 function App() {
   const [heroSection, setHeroSection] = useState("default");
@@ -11,6 +12,7 @@ function App() {
     <section className="App">
       <Header heroSection={heroSection} setHeroSection={setHeroSection} />
       <Body heroSection={heroSection} setHeroSection={setHeroSection} />
+      <TreeInfo />
       <Footer heroSection={heroSection} setHeroSection={setHeroSection} />
     </section>
   );

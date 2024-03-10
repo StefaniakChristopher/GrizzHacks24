@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap");
+
+* {
+  /* reset the browser default css styles in the next 3 lines */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* choose your font-family */
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  --font-color-primary: #8ea8c3;
+  --font-color-secondary: #406e8e;
+  --bg-color-primary: #161925;
+  --bg-color-secondary: #23395b;
+  --backup-color: #cbf7ed;
+}
+body {
+  margin: 0;
+}
+
+/* main content */
+
+.tree-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color-secondary);
+}
+
+.tree-info div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-info div h4 {
+  color: var(--backup-color);
+  font-size: 30px;
+  margin-bottom: 90px;
+}
+
+.tree-info div ul li {
+  color: var(--font-color-primary);
+}
+
+.tree-info div ul li a {
+  color: var(--backup-color);
+}
+
+.tree-info div:last-child {
+  flex-direction: column;
+  padding: 60px;
+}
+
+.tree-info img {
+  padding: 40px;
+  border-radius: 20%;
+}

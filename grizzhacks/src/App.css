@@ -101,6 +101,9 @@ footer div ul {
   display: flex;
   gap: 20px;
 }
+footer div ul a {
+  text-decoration: none;
+}
 
 footer div ul li {
   list-style-type: none;
@@ -126,3 +129,5 @@ footer div a span {
   border-radius: 0%;
   height: 700px;
 }
+
+/* tree-info */

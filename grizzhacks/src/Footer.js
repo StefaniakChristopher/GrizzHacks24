@@ -10,31 +10,49 @@ function Footer({ heroSection, setHeroSection }) {
     <div>
       <footer>
         <div>
-          <h3>GrizzHacks</h3>
+          <h3>GrizzCS</h3>
         </div>
         <div>
           <nav>
             <ul>
-              <a>
-                <li>Bio Informatics</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/bioInformatics.png")}>
+                  Bio Informatics
+                </li>
               </a>
-              <a>
-                <li>Cyber Security</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/cyberSecurity.png")}>
+                  Cyber Security
+                </li>
               </a>
-              <a>
-                <li>Computational Intelligence</li>
+              <a href="#">
+                <li
+                  onClick={() =>
+                    setHeroSection("/computationalIntelligence.png")
+                  }
+                >
+                  Computational Intelligence
+                </li>
               </a>
-              <a>
-                <li>Game Development</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/gameDevelopment.png")}>
+                  Game Development
+                </li>
               </a>
-              <a>
-                <li>Mobile Applications</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/mobileApplications.png")}>
+                  Mobile Applications
+                </li>
               </a>
-              <a>
-                <li>Systems Admin</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/systemsAdmin.png")}>
+                  Systems Admin
+                </li>
               </a>
-              <a>
-                <li>Web Development</li>
+              <a href="#">
+                <li onClick={() => setHeroSection("/webDevelopment.png")}>
+                  Web Development
+                </li>
               </a>
             </ul>
           </nav>
