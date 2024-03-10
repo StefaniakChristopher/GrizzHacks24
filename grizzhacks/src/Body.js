@@ -7,7 +7,7 @@ function Body({ heroSection, setHeroSection }) {
     if (heroSection === "default") {
       return <Default />;
     } else {
-      return <Tree />;
+      return <Tree heroSection={heroSection} />;
     }
   };
 

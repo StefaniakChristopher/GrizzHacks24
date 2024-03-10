@@ -10,37 +10,39 @@ function header({ heroSection, setHeroSection }) {
         <nav>
           <ul>
             <a>
-              <li onClick={() => setHeroSection("bioInformatics")}>
+              <li onClick={() => setHeroSection("/bioInformatics.png")}>
                 Bio Informatics
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("cyberSecurity")}>
+              <li onClick={() => setHeroSection("/cyberSecurity.png")}>
                 Cyber Security
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("computationalIntelligence")}>
+              <li
+                onClick={() => setHeroSection("/computationalIntelligence.png")}
+              >
                 Computational Intelligence
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("gameDevelopment")}>
+              <li onClick={() => setHeroSection("/gameDevelopment.png")}>
                 Game Development
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("mobileApplications")}>
+              <li onClick={() => setHeroSection("/mobileApplications.png")}>
                 Mobile Applications
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("systemsAdmin")}>
+              <li onClick={() => setHeroSection("/systemsAdmin.png")}>
                 Systems Admin
               </li>
             </a>
             <a>
-              <li onClick={() => setHeroSection("webDevelopment")}>
+              <li onClick={() => setHeroSection("/webDevelopment.png")}>
                 Web Development
               </li>
             </a>

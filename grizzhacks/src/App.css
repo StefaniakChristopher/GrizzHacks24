@@ -65,7 +65,7 @@ header h1 {
 
 /* height: 600px; */
 
-.body img {
+#mr-oakland {
   height: 400px;
   border-radius: 50%;
 }
@@ -120,4 +120,9 @@ footer div a {
 
 footer div a span {
   color: var(--backup-color);
+}
+
+#diagram {
+  border-radius: 0%;
+  height: 700px;
 }
