@@ -1,15 +1,17 @@
 import "./App.css";
+import Default from "./Default";
+import Tree from "./Tree";
 
 function Body({ heroSection, setHeroSection }) {
-  return (
-    <section className="body">
-      <h2>Formulate your Future with</h2>
-      {/* <img src="/YUGE.png" alt="mrOakland" /> */}
-      <img src="/bear.png" alt="mrOakland" />
-      <h4>Visualized Class Scheduling</h4>
-      <h6>at Oakland University</h6>
-    </section>
-  );
+  const renderComponent = () => {
+    if (heroSection === "default") {
+      return <Default />;
+    } else {
+      return <Tree />;
+    }
+  };
+
+  return <>{renderComponent()}</>;
 }
 
 export default Body;
