@@ -1,24 +1,15 @@
-import './App.css';
+import "./App.css";
 
-function App() {
+function Body({ heroSection, setHeroSection }) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="body">
+      <h2>Formulate your Future with</h2>
+      {/* <img src="/YUGE.png" alt="mrOakland" /> */}
+      <img src="/bear.png" alt="mrOakland" />
+      <h4>Visualized Class Scheduling</h4>
+      <h6>at Oakland University</h6>
+    </section>
   );
 }
 
-export default App;
+export default Body;
